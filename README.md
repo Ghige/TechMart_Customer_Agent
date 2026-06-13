@@ -62,7 +62,7 @@ https://www.loom.com/share/c9cd5abdb4f141fda46024aec820383a
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Ghige/TechMart_Customer_Agent.git
 cd TechMart_Customer_Agent
 ```
 
