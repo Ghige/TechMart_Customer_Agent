@@ -10,8 +10,7 @@ The system retrieves customer information from a CRM database, evaluates refund 
 
 Loom Walkthrough:
 
-[Add Your Loom Link Here]
-
+https://www.loom.com/share/c9cd5abdb4f141fda46024aec820383a
 ---
 
 ## Features
