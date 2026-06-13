@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: techmart-agent
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false          # Set this in the Render dashboard — never commit it
+      - key: TECHMART_DB_PATH
+        value: /data/techmart.db
+    disk:
+      name: techmart-data
+      mountPath: /data
+      sizeGB: 1
+    healthCheckPath: /health

@@ -1,0 +1,39 @@
+Demo 1 — Approved Refund
+Input:
+
+My email is priya.sharma@gmail.com
+Order ID: ORD-7821
+My headphones stopped working after two weeks and they no longer power on.
+
+Expected Outcome:
+APPROVED
+
+
+Demo 2 — Refund Denied
+Input:
+
+My email is pooja.gupta@gmail.com
+Order ID: ORD-0432
+I changed my mind and no longer need this product.
+
+Expected Outcome:
+DENIED
+
+Demo 3 — High Value Conditional Approval
+Input:
+My email is sneha.iyer@gmail.com
+Order ID: ORD-3301
+The device is not turning on after delivery.
+
+Expected Outcome:
+APPROVED WITH CONDITIONS
+
+
+Demo 4 — Unknown Customer
+Input:
+My email is unknown.customer@gmail.com
+Order ID: ORD-9999
+The product is defective.
+
+Expected Outcome:
+CUSTOMER NOT FOUND
